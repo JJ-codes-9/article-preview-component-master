@@ -1,0 +1,115 @@
+/* --- CSS Reset ---- */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* --- Main Styles ---- */
+body {
+	font-family: "Manrope", serif;
+	background-color: #f2ebe3;
+}
+
+.main-image {
+	display: block;
+	max-width: 100%;
+	flex-wrap: wrap;
+	height: 35vh;
+	border-radius: 20px 0 0 20px;
+}
+
+.user-image {
+	width: 12%;
+	border-radius: 50%;
+	margin-right: 5%;
+}
+
+.user {
+	display: flex;
+	margin-top: 5%;
+}
+
+.user-info {
+	display: flex;
+	flex-direction: column;
+}
+
+h1,
+p,
+.user {
+	margin: 5% 5% 2% 5%;
+	color: #6d7f97;
+}
+
+p {
+	font-size: 0.8rem;
+}
+
+.name {
+	font-size: 0.8rem;
+}
+
+time {
+	font-size: 0.8rem;
+	color: lightgray;
+}
+
+/* --- Layout --- */
+#article-preview {
+	display: flex;
+	margin: 25vh auto 0;
+	overflow-wrap: break-word;
+	background-color: #ffffff;
+	border-radius: 20px;
+	width: 50vw;
+}
+
+.text-box {
+	width: 55%;
+	line-height: 1.5rem;
+}
+
+#share-popup {
+	position: relative;
+	top: 13rem;
+	right: 4rem;
+}
+
+.share {
+	text-transform: uppercase;
+}
+
+.popup-icon {
+	background-color: #9eafc2;
+	border-radius: 50%;
+	width: 2rem;
+	padding: 20%;
+}
+
+.social-icons {
+	display: none; /*will work on the pop up layout*/
+	background-color: hsl(217, 19%, 35%);
+}
+
+/* --- Footer --- */
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+/* @media (min-width:320px) {
+
+} */
