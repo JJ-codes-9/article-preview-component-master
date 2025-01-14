@@ -10,9 +10,6 @@ This is a solution to the [Article preview component challenge on Frontend Mento
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 
@@ -27,35 +24,28 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./design/mySolution_desktopView.png)
+
+![](./design/mySolution_mobileView.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/article-preview-component-master-dqj5htQHX0)
+- Live Site URL: [Add live site URL here](https://jj-codes-9.github.io/article-preview-component-master/
+)
 
 ## My process
+The biggest challenge was figuring out how to create the interaction that enables the popup to toggle when clicked. It required a good understanding of JavaScript and how to manipulate the DOM dynamically. Another challenge was making the layout responsive, especially ensuring the elements align properly in mobile view. I tackled these by breaking the problems into smaller steps—debugging and testing the popup logic separately before integrating it—and refining the CSS media queries for better responsiveness.
 
 ### Built with
-
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
 
-
-### What I learned
-
-
-### Continued development
-
-
-### Useful resources
-
-
 ## Author
 
-- Website - [Add your name here](https://www.jjatwork.com)
+- Website - [jj-codes-9](https://www.jjatwork.com)
 - Frontend Mentor - [@JJ-codes-9](https://www.frontendmentor.io/profile/JJ-codes-9)
